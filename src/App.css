@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+.app {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.app-header {
+  text-align: center;
+  padding: 32px 16px;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+.app-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 1.75rem;
+  color: #0f172a;
+}
+.app-header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 1rem;
+}
+.app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.ej-btn {
+  padding: 10px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #334155;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+.ej-btn:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+  background: #f8fafc;
+}
+.ej-btn.activo {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+.app-main {
+  flex: 1;
+  min-height: 400px;
+}
+.inicio {
+  text-align: center;
+  padding: 60px 20px;
+  color: #64748b;
+}
+.inicio h2 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+.app-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  padding: 16px;
+  border-top: 1px solid #e2e8f0;
+}

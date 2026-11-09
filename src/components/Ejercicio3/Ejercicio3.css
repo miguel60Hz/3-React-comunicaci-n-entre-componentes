@@ -1,0 +1,43 @@
+.ej3-card {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  text-align: center;
+}
+.ej3-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+.ej3-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+.ej3-titulo {
+  margin: 24px 0;
+  color: #2563eb;
+  transition: font-size 0.3s;
+}
+.ej3-boton {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ej3-boton:hover {
+  background: #1d4ed8;
+}
+.ej3-pista {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #64748b;
+}

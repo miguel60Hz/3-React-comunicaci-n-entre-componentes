@@ -1,0 +1,75 @@
+.ej9-card {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  text-align: center;
+}
+.ej9-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+.ej9-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+.semaforo {
+  display: inline-block;
+  background: #222;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.luz {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 8px auto;
+  background: #555;
+  border: 4px solid #111;
+  transition: opacity 0.3s, filter 0.3s;
+}
+.luz.encendida {
+  opacity: 1;
+  filter: brightness(1.4);
+}
+.luz:not(.encendida) {
+  opacity: 0.35;
+}
+.estado-actual {
+  margin: 10px 0 0 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+.ej9-controles {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.ej9-controles button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.btn-rojo { background: #ef4444; color: #fff; }
+.btn-rojo:hover { background: #dc2626; }
+.btn-amarillo { background: #facc15; color: #713f12; }
+.btn-amarillo:hover { background: #eab308; }
+.btn-verde { background: #22c55e; color: #fff; }
+.btn-verde:hover { background: #16a34a; }
+.ej9-pista {
+  font-size: 0.85rem;
+  color: #64748b;
+}

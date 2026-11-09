@@ -1,0 +1,49 @@
+.ej8-card {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+.ej8-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+.ej8-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+.ej8-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+.producto-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+}
+.producto-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #1e293b;
+}
+.producto-precio {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #15803d;
+}
+.producto-descripcion {
+  margin: 0;
+  color: #475569;
+  font-size: 0.9rem;
+}

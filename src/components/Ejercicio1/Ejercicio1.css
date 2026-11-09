@@ -1,0 +1,92 @@
+.ej1-card {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+.ej1-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+.ej1-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+.ej1-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.ej1-form input[type="text"] {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+.ej1-form button {
+  padding: 8px 16px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+.ej1-form button:hover {
+  background: #1d4ed8;
+}
+.ej1-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+.ej1-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: #f8fafc;
+  transition: background 0.2s;
+}
+.ej1-item.completada {
+  background: #ecfdf5;
+  border-color: #86efac;
+}
+.ej1-item.completada .ej1-label {
+  color: #15803d;
+  text-decoration: line-through;
+}
+.ej1-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #334155;
+}
+.ej1-eliminar {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.ej1-eliminar:hover {
+  background: #dc2626;
+}
+.ej1-pista {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #64748b;
+}
